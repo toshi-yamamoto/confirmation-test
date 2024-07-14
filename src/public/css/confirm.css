@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f6f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #8d735f;
+  margin-bottom: 20px;
+}
+
+.confirmation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.confirmation-table th,
+.confirmation-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.confirmation-table th {
+  background-color: #8d735f;
+  color: #fff;
+  width: 30%;
+}
+
+.confirmation-table td {
+  background-color: #f9f6f2;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #8d735f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #7a6351;
+}
